@@ -1,5 +1,5 @@
 import React from 'react';
-import Consumer from '../context';
+// import Consumer from '../context';
 
 import Moment from 'moment';
 import properties from './properties';
@@ -59,8 +59,8 @@ export const validate = (required, $this, base) => {
     return result;
 }
 
-export const withContext = (Component) => (props) => {
-    return (<Consumer>{value => (
-        <Component context={value} {...props} />
-    )}</Consumer>)
-}
+// export const withContext = (Component) => (props) => {
+//     return (<Consumer>{value => (
+//         <Component context={value} {...props} />
+//     )}</Consumer>)
+// }
