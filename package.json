@@ -1,0 +1,27 @@
+{
+  "name": "react-native-screen-tools",
+  "version": "1.0.0",
+  "description": "React native components to create screens",
+  "main": "./components/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josesuero/react-native-screen-tools.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "screen",
+    "tools",
+    "components",
+    "elements"
+  ],
+  "author": "Jose Suero (MSTN Media)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josesuero/react-native-screen-tools/issues"
+  },
+  "homepage": "https://github.com/josesuero/react-native-screen-tools#readme"
+}
