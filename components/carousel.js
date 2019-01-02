@@ -8,7 +8,7 @@ import TimerMixin from 'react-timer-mixin';
 
 // import CustomComponent from '...'
 // import data from '...'
-import picture from '../images/picture.png';
+import picture from './images/picture.png';
 
 export default class Carousel extends Component {
     state = {
