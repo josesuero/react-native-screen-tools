@@ -1,0 +1,91 @@
+{
+    "borderColor": "rgb(165,165,165)",
+    "currency": "€",
+    "delimiter": ".",
+    "decimalSeparator": ",",
+    "locale": "es",
+    "decimals": 2,
+    "mainColor": "#990099",
+    "stripeApiKey": "pk_test_jyA7cxFbiDwuFhgSViDETjnH",
+    "razones": [{
+            "value": 1,
+            "label": "Cancelar Pedido"
+        },
+        {
+            "value": 2,
+            "label": "El paquete no ha llegado"
+        },
+        {
+            "value": 3,
+            "label": "Falta partes del producto"
+        },
+        {
+            "value": 4,
+            "label": "Otras razones"
+        },
+        {
+            "value": 5,
+            "label": "Producto defectuoso"
+        },
+        {
+            "value": 6,
+            "label": "Producto diferente al que compré"
+        },
+        {
+            "value": 7,
+            "label": "Producto diferente a la descripción"
+        }
+    ],
+    "styles": {
+        "fullContainerStyle": {
+            "flex": 1,
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF"
+        },
+        "loginBoxStyle": {
+            "flex": 0.8,
+            "alignItems": "flex-start"
+        },
+        "loginTextStyle": {
+            "fontSize": 18
+        },
+        "logoStyle": {
+            "width": 132,
+            "height": 55
+        },
+        "modalBottom": {
+            "justifyContent": "flex-end",
+            "margin": 0
+        },
+        "modalContent": {
+            "backgroundColor": "white",
+            "padding": 22,
+            "justifyContent": "center",
+            "alignItems": "center",
+            "borderRadius": 4,
+            "borderColor": "rgba(0, 0, 0, 0.1)"
+        },
+        "modalTop": {
+            "height": 200,
+            "top": 100,
+            "justifyContent": "flex-start",
+            "margin": 0
+        },
+        "textStyle": {
+            "fontFamily": "Times New Roman",
+            "fontSize": 15
+        },
+        "titleStyle": {
+            "fontWeight": "bold",
+            "alignSelf": "center",
+            "fontSize": 22,
+            "margin": 10
+        },
+        "titleTextStyle": {
+            "fontSize": 25
+        }
+    }
+}

@@ -1,0 +1,320 @@
+{
+    "C68": [{
+            "label": "Andalucía ",
+            "value": 845
+        },
+        {
+            "label": "Aragón ",
+            "value": 846
+        },
+        {
+            "label": "Asturias, Principado de ",
+            "value": 847
+        },
+        {
+            "label": "Canarias ",
+            "value": 852
+        },
+        {
+            "label": "Cantabria ",
+            "value": 848
+        },
+        {
+            "label": "Castilla y León ",
+            "value": 850
+        },
+        {
+            "label": "Castilla-La Mancha ",
+            "value": 851
+        },
+        {
+            "label": "Catalunya ",
+            "value": 853
+        },
+        {
+            "label": "Ceuta ",
+            "value": 849
+        },
+        {
+            "label": "Extremadura ",
+            "value": 854
+        },
+        {
+            "label": "Galicia ",
+            "value": 855
+        },
+        {
+            "label": "Illes Balears ",
+            "value": 856
+        },
+        {
+            "label": "La Rioja ",
+            "value": 862
+        },
+        {
+            "label": "Madrid, Comunidad de ",
+            "value": 858
+        },
+        {
+            "label": "Melilla ",
+            "value": 859
+        },
+        {
+            "label": "Murcia, Región de ",
+            "value": 857
+        },
+        {
+            "label": "Navarra, Comunidad Foral de / Nafarroako Foru Komunitatea ",
+            "value": 860
+        },
+        {
+            "label": "País Vasco / Euskal Herria ",
+            "value": 861
+        },
+        {
+            "label": "Valenciana, Comunidad / Valenciana, Comunitat ",
+            "value": 863
+        }
+    ],
+    "C232": [{
+            "label": "Alabama ",
+            "value": 3525
+        },
+        {
+            "label": "Alaska ",
+            "value": 3524
+        },
+        {
+            "label": "American Samoa ",
+            "value": 3527
+        },
+        {
+            "label": "Arizona ",
+            "value": 3528
+        },
+        {
+            "label": "Arkansas ",
+            "value": 3526
+        },
+        {
+            "label": "Armed Forces Africa, Canada, Europe, Middle East ",
+            "value": 3582
+        },
+        {
+            "label": "Armed Forces Americas (except Canada) ",
+            "value": 3581
+        },
+        {
+            "label": "Armed Forces Pacific ",
+            "value": 3583
+        },
+        {
+            "label": "California ",
+            "value": 3529
+        },
+        {
+            "label": "Colorado ",
+            "value": 3530
+        },
+        {
+            "label": "Connecticut ",
+            "value": 3531
+        },
+        {
+            "label": "Delaware ",
+            "value": 3533
+        },
+        {
+            "label": "District of Columbia ",
+            "value": 3532
+        },
+        {
+            "label": "Florida ",
+            "value": 3534
+        },
+        {
+            "label": "Georgia ",
+            "value": 3535
+        },
+        {
+            "label": "Guam ",
+            "value": 3536
+        },
+        {
+            "label": "Hawaii ",
+            "value": 3537
+        },
+        {
+            "label": "Idaho ",
+            "value": 3539
+        },
+        {
+            "label": "Illinois ",
+            "value": 3540
+        },
+        {
+            "label": "Indiana ",
+            "value": 3541
+        },
+        {
+            "label": "Iowa ",
+            "value": 3538
+        },
+        {
+            "label": "Kansas ",
+            "value": 3542
+        },
+        {
+            "label": "Kentucky ",
+            "value": 3543
+        },
+        {
+            "label": "Louisiana ",
+            "value": 3544
+        },
+        {
+            "label": "Maine ",
+            "value": 3547
+        },
+        {
+            "label": "Maryland ",
+            "value": 3546
+        },
+        {
+            "label": "Massachusetts ",
+            "value": 3545
+        },
+        {
+            "label": "Michigan ",
+            "value": 3548
+        },
+        {
+            "label": "Minnesota ",
+            "value": 3549
+        },
+        {
+            "label": "Mississippi ",
+            "value": 3552
+        },
+        {
+            "label": "Missouri ",
+            "value": 3550
+        },
+        {
+            "label": "Montana ",
+            "value": 3553
+        },
+        {
+            "label": "Nebraska ",
+            "value": 3556
+        },
+        {
+            "label": "Nevada ",
+            "value": 3560
+        },
+        {
+            "label": "New Hampshire ",
+            "value": 3557
+        },
+        {
+            "label": "New Jersey ",
+            "value": 3558
+        },
+        {
+            "label": "New Mexico ",
+            "value": 3559
+        },
+        {
+            "label": "New York ",
+            "value": 3561
+        },
+        {
+            "label": "North Carolina ",
+            "value": 3554
+        },
+        {
+            "label": "North Dakota ",
+            "value": 3555
+        },
+        {
+            "label": "Northern Mariana Islands ",
+            "value": 3551
+        },
+        {
+            "label": "Ohio ",
+            "value": 3562
+        },
+        {
+            "label": "Oklahoma ",
+            "value": 3563
+        },
+        {
+            "label": "Oregon ",
+            "value": 3564
+        },
+        {
+            "label": "Pennsylvania ",
+            "value": 3565
+        },
+        {
+            "label": "Puerto Rico ",
+            "value": 3566
+        },
+        {
+            "label": "Rhode Island ",
+            "value": 3567
+        },
+        {
+            "label": "South Carolina  ",
+            "value": 3568
+        },
+        {
+            "label": "South Dakota ",
+            "value": 3569
+        },
+        {
+            "label": "Tennessee ",
+            "value": 3570
+        },
+        {
+            "label": "Texas ",
+            "value": 3571
+        },
+        {
+            "label": "United States Minor Outlying Islands ",
+            "value": 3572
+        },
+        {
+            "label": "Utah ",
+            "value": 3573
+        },
+        {
+            "label": "Vermont ",
+            "value": 3576
+        },
+        {
+            "label": "Virgin Islands ",
+            "value": 3575
+        },
+        {
+            "label": "Virginia ",
+            "value": 3574
+        },
+        {
+            "label": "Washington ",
+            "value": 3577
+        },
+        {
+            "label": "West Virginia ",
+            "value": 3579
+        },
+        {
+            "label": "Wisconsin ",
+            "value": 3578
+        },
+        {
+            "label": "Wyoming ",
+            "value": 3580
+        }
+    ]
+}

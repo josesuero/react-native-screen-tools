@@ -1,0 +1,993 @@
+[{
+        "label": "Afganistán",
+        "value": 3
+    },
+    {
+        "label": "Albania",
+        "value": 6
+    },
+    {
+        "label": "Alemania",
+        "value": 57
+    },
+    {
+        "label": "Andorra",
+        "value": 1
+    },
+    {
+        "label": "Angola",
+        "value": 8
+    },
+    {
+        "label": "Anguila",
+        "value": 5
+    },
+    {
+        "label": "Antártida",
+        "value": 9
+    },
+    {
+        "label": "Antigua y Barbuda",
+        "value": 4
+    },
+    {
+        "label": "Arabia Saudita",
+        "value": 192
+    },
+    {
+        "label": "Argelia",
+        "value": 62
+    },
+    {
+        "label": "Argentina",
+        "value": 10
+    },
+    {
+        "label": "Armenia",
+        "value": 7
+    },
+    {
+        "label": "Aruba",
+        "value": 14
+    },
+    {
+        "label": "Australia",
+        "value": 13
+    },
+    {
+        "label": "Austria",
+        "value": 12
+    },
+    {
+        "label": "Azerbaiyán",
+        "value": 16
+    },
+    {
+        "label": "Bahamas",
+        "value": 32
+    },
+    {
+        "label": "Bahréin",
+        "value": 23
+    },
+    {
+        "label": "Bangladesh",
+        "value": 19
+    },
+    {
+        "label": "Barbados",
+        "value": 18
+    },
+    {
+        "label": "Bélgica",
+        "value": 20
+    },
+    {
+        "label": "Belice",
+        "value": 37
+    },
+    {
+        "label": "Benín",
+        "value": 25
+    },
+    {
+        "label": "Bielorrusia",
+        "value": 36
+    },
+    {
+        "label": "Bolivia, Estado Plurinacional de",
+        "value": 29
+    },
+    {
+        "label": "Bonaire, San Eustaquio y Saba",
+        "value": 30
+    },
+    {
+        "label": "Bosnia y Herzegovina",
+        "value": 17
+    },
+    {
+        "label": "Botsuana",
+        "value": 35
+    },
+    {
+        "label": "Brasil",
+        "value": 31
+    },
+    {
+        "label": "Brunéi Darussalam",
+        "value": 28
+    },
+    {
+        "label": "Bulgaria",
+        "value": 22
+    },
+    {
+        "label": "Burkina Faso",
+        "value": 21
+    },
+    {
+        "label": "Burundi",
+        "value": 24
+    },
+    {
+        "label": "Bután",
+        "value": 33
+    },
+    {
+        "label": "Cabo Verde",
+        "value": 52
+    },
+    {
+        "label": "Camboya",
+        "value": 117
+    },
+    {
+        "label": "Camerún",
+        "value": 47
+    },
+    {
+        "label": "Canadá",
+        "value": 38
+    },
+    {
+        "label": "Chad",
+        "value": 214
+    },
+    {
+        "label": "Chile",
+        "value": 46
+    },
+    {
+        "label": "China",
+        "value": 48
+    },
+    {
+        "label": "Chipre",
+        "value": 55
+    },
+    {
+        "label": "Colombia",
+        "value": 49
+    },
+    {
+        "label": "Comoras",
+        "value": 119
+    },
+    {
+        "label": "Congo",
+        "value": 42
+    },
+    {
+        "label": "Congo, República Democrática del",
+        "value": 40
+    },
+    {
+        "label": "Corea, república de",
+        "value": 122
+    },
+    {
+        "label": "Costa de Marfil",
+        "value": 44
+    },
+    {
+        "label": "Costa Rica",
+        "value": 50
+    },
+    {
+        "label": "Croacia",
+        "value": 98
+    },
+    {
+        "label": "Cuba",
+        "value": 51
+    },
+    {
+        "label": "Curazao",
+        "value": 53
+    },
+    {
+        "label": "Dinamarca",
+        "value": 59
+    },
+    {
+        "label": "Djibouti",
+        "value": 58
+    },
+    {
+        "label": "Dominica",
+        "value": 60
+    },
+    {
+        "label": "Ecuador",
+        "value": 63
+    },
+    {
+        "label": "Egipto",
+        "value": 65
+    },
+    {
+        "label": "El Salvador",
+        "value": 209
+    },
+    {
+        "label": "Emiratos Árabes Unidos",
+        "value": 2
+    },
+    {
+        "label": "Eritrea",
+        "value": 67
+    },
+    {
+        "label": "Eslovaquia",
+        "value": 201
+    },
+    {
+        "label": "Eslovenia",
+        "value": 199
+    },
+    {
+        "label": "España",
+        "value": 68
+    },
+    {
+        "label": "Estados Unidos",
+        "value": 232
+    },
+    {
+        "label": "Estonia",
+        "value": 64
+    },
+    {
+        "label": "Etiopía",
+        "value": 69
+    },
+    {
+        "label": "Federación Rusa",
+        "value": 190
+    },
+    {
+        "label": "Fiji",
+        "value": 71
+    },
+    {
+        "label": "Filipinas",
+        "value": 177
+    },
+    {
+        "label": "Finlandia",
+        "value": 70
+    },
+    {
+        "label": "Francia",
+        "value": 75
+    },
+    {
+        "label": "Gabón",
+        "value": 76
+    },
+    {
+        "label": "Gambia",
+        "value": 85
+    },
+    {
+        "label": "Georgia",
+        "value": 79
+    },
+    {
+        "label": "Georgia del sur y las islas Sandwich del sur",
+        "value": 90
+    },
+    {
+        "label": "Ghana",
+        "value": 82
+    },
+    {
+        "label": "Gibraltar",
+        "value": 83
+    },
+    {
+        "label": "Granada",
+        "value": 78
+    },
+    {
+        "label": "Grecia",
+        "value": 89
+    },
+    {
+        "label": "Guadalupe",
+        "value": 87
+    },
+    {
+        "label": "Guam",
+        "value": 92
+    },
+    {
+        "label": "Guatemala",
+        "value": 91
+    },
+    {
+        "label": "Guayana",
+        "value": 94
+    },
+    {
+        "label": "Guayana Francesa",
+        "value": 80
+    },
+    {
+        "label": "Guernsey",
+        "value": 81
+    },
+    {
+        "label": "Guinea",
+        "value": 86
+    },
+    {
+        "label": "Guinea Ecuatorial",
+        "value": 88
+    },
+    {
+        "label": "Guinea-Bissau",
+        "value": 93
+    },
+    {
+        "label": "Haití",
+        "value": 99
+    },
+    {
+        "label": "Honduras",
+        "value": 97
+    },
+    {
+        "label": "Hong Kong",
+        "value": 95
+    },
+    {
+        "label": "Hungría",
+        "value": 100
+    },
+    {
+        "label": "India",
+        "value": 105
+    },
+    {
+        "label": "Indonesia",
+        "value": 101
+    },
+    {
+        "label": "Irak",
+        "value": 107
+    },
+    {
+        "label": "Irán (República Islámica de",
+        "value": 108
+    },
+    {
+        "label": "Irlanda",
+        "value": 102
+    },
+    {
+        "label": "Isla Bouvet",
+        "value": 34
+    },
+    {
+        "label": "Isla de Navidad",
+        "value": 54
+    },
+    {
+        "label": "Isla del hombre",
+        "value": 104
+    },
+    {
+        "label": "Isla Norfolk",
+        "value": 163
+    },
+    {
+        "label": "Islandia",
+        "value": 109
+    },
+    {
+        "label": "Islas Aland",
+        "value": 15
+    },
+    {
+        "label": "islas Bermudas",
+        "value": 27
+    },
+    {
+        "label": "Islas Caimán",
+        "value": 124
+    },
+    {
+        "label": "Islas Cocos (Keeling)",
+        "value": 39
+    },
+    {
+        "label": "Islas Cook",
+        "value": 45
+    },
+    {
+        "label": "Islas Faroe",
+        "value": 74
+    },
+    {
+        "label": "Islas Heard y McDonald",
+        "value": 96
+    },
+    {
+        "label": "Islas Malvinas (Islas Malvinas)",
+        "value": 72
+    },
+    {
+        "label": "Islas Marianas del Norte",
+        "value": 149
+    },
+    {
+        "label": "Islas Marshall",
+        "value": 143
+    },
+    {
+        "label": "Islas menores alejadas de los Estados Unidos",
+        "value": 231
+    },
+    {
+        "label": "Islas Salomón",
+        "value": 193
+    },
+    {
+        "label": "Islas Turcas y Caicos",
+        "value": 213
+    },
+    {
+        "label": "Islas Vírgenes Británicas",
+        "value": 238
+    },
+    {
+        "label": "Islas Vírgenes, EE.UU.",
+        "value": 239
+    },
+    {
+        "label": "Israel",
+        "value": 103
+    },
+    {
+        "label": "Italia",
+        "value": 110
+    },
+    {
+        "label": "Jamaica",
+        "value": 112
+    },
+    {
+        "label": "Japón",
+        "value": 114
+    },
+    {
+        "label": "Jersey",
+        "value": 111
+    },
+    {
+        "label": "Jordán",
+        "value": 113
+    },
+    {
+        "label": "Kazajstán",
+        "value": 125
+    },
+    {
+        "label": "Kenia",
+        "value": 115
+    },
+    {
+        "label": "Kirguizistán",
+        "value": 116
+    },
+    {
+        "label": "Kiribati",
+        "value": 118
+    },
+    {
+        "label": "Kuwait",
+        "value": 123
+    },
+    {
+        "label": "Lesoto",
+        "value": 132
+    },
+    {
+        "label": "Letonia",
+        "value": 135
+    },
+    {
+        "label": "Líbano",
+        "value": 127
+    },
+    {
+        "label": "Liberia",
+        "value": 131
+    },
+    {
+        "label": "Libia",
+        "value": 136
+    },
+    {
+        "label": "Liechtenstein",
+        "value": 129
+    },
+    {
+        "label": "Lituania",
+        "value": 133
+    },
+    {
+        "label": "Luxemburgo",
+        "value": 134
+    },
+    {
+        "label": "Macao",
+        "value": 148
+    },
+    {
+        "label": "Macedonia, República de",
+        "value": 144
+    },
+    {
+        "label": "Madagascar",
+        "value": 142
+    },
+    {
+        "label": "Malasia",
+        "value": 158
+    },
+    {
+        "label": "Malawi",
+        "value": 156
+    },
+    {
+        "label": "Maldivas",
+        "value": 155
+    },
+    {
+        "label": "Mali",
+        "value": 145
+    },
+    {
+        "label": "Malta",
+        "value": 153
+    },
+    {
+        "label": "Marruecos",
+        "value": 137
+    },
+    {
+        "label": "Martinica",
+        "value": 150
+    },
+    {
+        "label": "Mauricio",
+        "value": 154
+    },
+    {
+        "label": "Mauritania",
+        "value": 151
+    },
+    {
+        "label": "Mayotte",
+        "value": 245
+    },
+    {
+        "label": "Méjico",
+        "value": 157
+    },
+    {
+        "label": "Micronesia, estados federados de",
+        "value": 73
+    },
+    {
+        "label": "Moldavia, República de",
+        "value": 139
+    },
+    {
+        "label": "Mónaco",
+        "value": 138
+    },
+    {
+        "label": "Mongolia",
+        "value": 147
+    },
+    {
+        "label": "Montenegro",
+        "value": 140
+    },
+    {
+        "label": "Montserrat",
+        "value": 152
+    },
+    {
+        "label": "Mozambique",
+        "value": 159
+    },
+    {
+        "label": "Myanmar",
+        "value": 146
+    },
+    {
+        "label": "Namibia",
+        "value": 160
+    },
+    {
+        "label": "Nauru",
+        "value": 169
+    },
+    {
+        "label": "Nepal",
+        "value": 168
+    },
+    {
+        "label": "Nicaragua",
+        "value": 165
+    },
+    {
+        "label": "Níger",
+        "value": 162
+    },
+    {
+        "label": "Nigeria",
+        "value": 164
+    },
+    {
+        "label": "Niue",
+        "value": 170
+    },
+    {
+        "label": "Noruega",
+        "value": 167
+    },
+    {
+        "label": "Nueva Caledonia",
+        "value": 161
+    },
+    {
+        "label": "Nueva Zelanda",
+        "value": 171
+    },
+    {
+        "label": "Omán",
+        "value": 172
+    },
+    {
+        "label": "Países Bajos",
+        "value": 166
+    },
+    {
+        "label": "Pakistán",
+        "value": 178
+    },
+    {
+        "label": "Palau",
+        "value": 184
+    },
+    {
+        "label": "Palestina, Estado de",
+        "value": 182
+    },
+    {
+        "label": "Panamá",
+        "value": 173
+    },
+    {
+        "label": "Papúa Nueva Guinea",
+        "value": 176
+    },
+    {
+        "label": "Paraguay",
+        "value": 185
+    },
+    {
+        "label": "Perú",
+        "value": 174
+    },
+    {
+        "label": "Pitcairn",
+        "value": 181
+    },
+    {
+        "label": "Polinesia francés",
+        "value": 175
+    },
+    {
+        "label": "Polonia",
+        "value": 179
+    },
+    {
+        "label": "Portugal",
+        "value": 183
+    },
+    {
+        "label": "Qatar",
+        "value": 186
+    },
+    {
+        "label": "Reino Unido",
+        "value": 77
+    },
+    {
+        "label": "República Árabe Siria",
+        "value": 211
+    },
+    {
+        "label": "República Centroafricana",
+        "value": 41
+    },
+    {
+        "label": "Republica checa",
+        "value": 56
+    },
+    {
+        "label": "República de Corea, Popular Democrática de",
+        "value": 121
+    },
+    {
+        "label": "República Democrática Popular Lao",
+        "value": 126
+    },
+    {
+        "label": "República Dominicana",
+        "value": 61
+    },
+    {
+        "label": "Reunión",
+        "value": 187
+    },
+    {
+        "label": "Ruanda",
+        "value": 191
+    },
+    {
+        "label": "Rumania",
+        "value": 188
+    },
+    {
+        "label": "Sahara Occidental",
+        "value": 66
+    },
+    {
+        "label": "Samoa",
+        "value": 243
+    },
+    {
+        "label": "Samoa Americana",
+        "value": 11
+    },
+    {
+        "label": "San Bartolomé",
+        "value": 26
+    },
+    {
+        "label": "San Cristóbal y Nieves",
+        "value": 120
+    },
+    {
+        "label": "San Marino",
+        "value": 203
+    },
+    {
+        "label": "San martin (parte francesa)",
+        "value": 141
+    },
+    {
+        "label": "San Martín (parte holandesa)",
+        "value": 210
+    },
+    {
+        "label": "San Pedro y Miquelón",
+        "value": 180
+    },
+    {
+        "label": "San Vicente y las Granadinas",
+        "value": 236
+    },
+    {
+        "label": "Santa Helena, Ascensión y Tristán da Cunha",
+        "value": 198
+    },
+    {
+        "label": "Santa Lucía",
+        "value": 128
+    },
+    {
+        "label": "Santa Sede (Estado de la Ciudad del Vaticano)",
+        "value": 235
+    },
+    {
+        "label": "Santo Tomé y Príncipe",
+        "value": 208
+    },
+    {
+        "label": "Senegal",
+        "value": 204
+    },
+    {
+        "label": "Serbia",
+        "value": 189
+    },
+    {
+        "label": "Seychelles",
+        "value": 194
+    },
+    {
+        "label": "Sierra Leona",
+        "value": 202
+    },
+    {
+        "label": "Singapur",
+        "value": 197
+    },
+    {
+        "label": "Somalia",
+        "value": 205
+    },
+    {
+        "label": "Sri Lanka",
+        "value": 130
+    },
+    {
+        "label": "Suazilandia",
+        "value": 212
+    },
+    {
+        "label": "Sudáfrica",
+        "value": 246
+    },
+    {
+        "label": "Sudán",
+        "value": 195
+    },
+    {
+        "label": "Sudán del Sur",
+        "value": 207
+    },
+    {
+        "label": "Suecia",
+        "value": 196
+    },
+    {
+        "label": "Suiza",
+        "value": 43
+    },
+    {
+        "label": "Surinam",
+        "value": 206
+    },
+    {
+        "label": "Svalbard y Jan Mayen",
+        "value": 200
+    },
+    {
+        "label": "Tailandia",
+        "value": 217
+    },
+    {
+        "label": "Taiwán",
+        "value": 227
+    },
+    {
+        "label": "Tanzania, República Unida de",
+        "value": 228
+    },
+    {
+        "label": "Tayikistan",
+        "value": 218
+    },
+    {
+        "label": "Territorio Británico del Océano Índico",
+        "value": 106
+    },
+    {
+        "label": "Territorios Franceses del Sur",
+        "value": 215
+    },
+    {
+        "label": "Tierra Verde",
+        "value": 84
+    },
+    {
+        "label": "Timor-Leste",
+        "value": 220
+    },
+    {
+        "label": "Togo",
+        "value": 216
+    },
+    {
+        "label": "Tokelau",
+        "value": 219
+    },
+    {
+        "label": "Tonga",
+        "value": 223
+    },
+    {
+        "label": "Trinidad y Tobago",
+        "value": 225
+    },
+    {
+        "label": "Túnez",
+        "value": 222
+    },
+    {
+        "label": "Turkia",
+        "value": 224
+    },
+    {
+        "label": "Turkmenistan",
+        "value": 221
+    },
+    {
+        "label": "Tuvalu",
+        "value": 226
+    },
+    {
+        "label": "Ucrania",
+        "value": 229
+    },
+    {
+        "label": "Uganda",
+        "value": 230
+    },
+    {
+        "label": "Uruguay",
+        "value": 233
+    },
+    {
+        "label": "Uzbekistán",
+        "value": 234
+    },
+    {
+        "label": "Vanuatu",
+        "value": 241
+    },
+    {
+        "label": "Venezuela, República Bolivariana de",
+        "value": 237
+    },
+    {
+        "label": "Vietnam",
+        "value": 240
+    },
+    {
+        "label": "Wallis y Futuna",
+        "value": 242
+    },
+    {
+        "label": "Yemen",
+        "value": 244
+    },
+    {
+        "label": "Zambia",
+        "value": 247
+    },
+    {
+        "label": "Zimbabue",
+        "value": 248
+    }
+]
