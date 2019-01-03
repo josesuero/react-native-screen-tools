@@ -6,7 +6,7 @@
     "locale": "es",
     "decimals": 2,
     "mainColor": "#990099",
-    "stripeApiKey": "pk_test_jyA7cxFbiDwuFhgSViDETjnH",
+    "stripeApiKey": "",
     "razones": [{
             "value": 1,
             "label": "Cancelar Pedido"
