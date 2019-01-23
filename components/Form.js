@@ -6,7 +6,7 @@ import Picker from './Picker';
 import { Row } from './Table';
 import CGText from './CGText';
 import Input from './Input';
-import { Object } from 'core-js';
+// import { Object } from 'core-js';
 
 
 export class Field extends Component {
