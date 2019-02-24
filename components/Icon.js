@@ -1,4 +1,5 @@
 import React from 'react';
+import Icon1 from 'react-native-vector-icons/FontAwesome';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import IonIcon from 'react-native-vector-icons/Ionicons';
 import MatIcon from 'react-native-vector-icons/MaterialIcons';
@@ -14,6 +15,9 @@ export default (props) => {
             break;
         case "material":
             IconObj = MatIcon
+            break;
+        case "fa1":
+            IconObj = Icon1
             break;
         case "fa":
         default:

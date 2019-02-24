@@ -3,10 +3,10 @@ import { View, StyleSheet } from 'react-native';
 
 import properties from './properties';
 import Picker from './Picker';
-import { Row } from './Table';
+import { Row, Column } from './Table';
 import CGText from './CGText';
 import Input from './Input';
-// import { Object } from 'core-js';
+import { Object } from 'core-js';
 
 
 export class Field extends Component {
@@ -16,7 +16,7 @@ export class Field extends Component {
     }
     focus() {
         if (this.input) {
-            console.log(this.input);
+
         }
     }
     render() {
@@ -54,7 +54,9 @@ export class Field extends Component {
 
         return (<View>
             <Row>
-                <CGText style={{ ...styles.loginTextStyle, fontSize: 16, ...props.labelStyle }}>{props.label}</CGText>
+                <Column>
+                    <CGText style={{ ...styles.loginTextStyle, fontSize: 16, ...props.labelStyle }}>{props.label}</CGText>
+                </Column>
             </Row>
             <Row style={{ ...props.style }}>
                 {children}
@@ -100,7 +102,6 @@ export default class Form extends Component {
 
 
             if (this.willValidate(child.props)) {
-                console.log('child props', child.props);
                 const ref = React.createRef();
                 this.refs[refId] = ref;
 
@@ -115,12 +116,10 @@ export default class Form extends Component {
                     } else if ((!child.props.value || child.props.value === "")) {
                         result.status = false;
                         options.error = `El campo es requerido`;
-                        // console.log('reference', this.refs);
                         result.errors.push(child);
                     }
                 }
             }
-            // console.log('options', options);
             const newChild = React.cloneElement(child, Object.assign({}, child.props, { options: options, oldValue: child.props.value }));
             result.children.push(newChild);
         });
@@ -160,14 +159,12 @@ export default class Form extends Component {
         //     status: true,
         //     errors: []
         // };
-        // console.log('validate items', items);
         // items.forEach(item => {
         //     if (item.props.validator) {
         //         //validate
         //     } else if ((!item.props.value || item.props.value === "")) {
         //         result.status = false;
         //         item.props.error = `El campo es requerido`;
-        //         // console.log('reference', this.refs);
         //         result.errors.push(item);
         //     }
         // });

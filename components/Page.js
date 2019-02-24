@@ -27,10 +27,11 @@ export default class Page extends Component {
                 ...this.props.scrollStyle
             }}
             innerRef={this.props.scrollRef}
-
             scrollEventThrottle={this.props.scrollEventThrottle || 50}
             onScroll={this.props.onScroll}
+            scrollEnabled={this.props.scrollEnabled}
 
+            enableOnAndroid
 
             refreshControl={
                 <RefreshControl
@@ -38,7 +39,7 @@ export default class Page extends Component {
                     onRefresh={this._onRefresh.bind(this)}
                 />
             }
-            contentContainerStyle={Object.assign({}, styles.containerStyle, { backgroundColor: 'white' })}
+            contentContainerStyle={Object.assign({}, { flexGrow: 1, backgroundColor: 'white' })}
         >
             <View style={{ margin: 5, ...this.props.style }}>
                 {this.props.title ? <CGText style={styles.titleStyle}>{this.props.title}</CGText> : null}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
+import { View, StyleSheet, Platform } from 'react-native';
 import { Picker } from 'react-native-picker-dropdown';
 
 export default (props) => {
@@ -14,6 +14,18 @@ export default (props) => {
             borderColor: "red"
         };
     }
+    let items;
+    if (Array.isArray(props.items)) {
+        if (Platform.OS === "android" && Array.isArray(props.items)) {
+            items = [{ value: "", label: "Seleccionar..." }, ...props.items];
+        } else {
+            items = [...props.items];
+        }
+
+
+    } else {
+        items = { ...items }
+    }
 
     return (<Picker
         mode="dropdown"
@@ -22,10 +34,10 @@ export default (props) => {
         onValueChange={props.onChange}
         textStyle={{ ...styles.textStyle, ...props.textStyle }}
     >
-        {Array.isArray(props.items) ?
-            props.items.map(item => <Picker.Item key={item.value} label={item.label} value={item.value} />)
+        {Array.isArray(items) ?
+            items.map(item => <Picker.Item key={item.value} label={item.label} value={item.value} />)
             :
-            Object.keys(props.items).map(key => <Picker.Item key={key} label={props.items[key]} value={key} />)
+            Object.keys(items).map(key => <Picker.Item key={key} label={items[key]} value={key} />)
         }
     </Picker>);
 }

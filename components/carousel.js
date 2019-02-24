@@ -42,30 +42,6 @@ export default class Carousel extends Component {
         return (
             <View style={{ padding: 5, margin: 10, }}>
                 <Image source={image} style={{ width: imageWidth, height: imageWidth }} />
-
-
-                {/*<Image
-                    source={image}
-                    onLoad={(value) => {
-                        console.log('loaded');
-                        const { height: imgHeight, width: imgWidth } = value.nativeEvent.source;
-                        const width = imageWidth;
-                        const ratio = imgWidth / imgHeight;
-                        const portrait = imgWidth < imgHeight;
-
-                        let height;
-                        if (portrait) {
-                            height = (width / ratio);
-                        } else {
-                            height = (width * ratio);
-                        }
-                        const itemStyle = { ...this.state.itemStyle };
-                        itemStyle[index] = { width, height };
-                        console.log('itemStyle', itemStyle);
-                        this.setState({ itemStyle });
-                    }}
-                    style={this.state.itemStyle[index] || { width: imageWidth, height: imageWidth }}
-                />*/}
             </View>
         );
     }
@@ -74,6 +50,12 @@ export default class Carousel extends Component {
         if (!data || data.length === 0) {
             data = []
         }
+
+        let loop = true;
+        if (this.props.loop === false) {
+            loop = false;
+        }
+
         return (
             <SnapCarousel
                 data={data}
@@ -81,7 +63,7 @@ export default class Carousel extends Component {
                 sliderWidth={this.state.width}
                 itemWidth={this.state.imageWidth}
                 autoplay={this.props.static ? false : true}
-                loop={true}
+                loop={loop}
                 autoplayDelay={500}
                 autoplayInterval={3000}
                 style={{ borderWidth: 1 }}

@@ -32,7 +32,7 @@ export default (props) => {
             onEndReached={props.onEndReached}
         />
         {props.paging ?
-            <Row style={{ height: 35 }}>
+            <Row style={{ height: 35, marginTop: 10 }}>
                 {props.page > 1 ?
                     <Button square
                         onPress={(() => {

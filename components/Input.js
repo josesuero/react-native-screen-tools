@@ -32,7 +32,7 @@ export default class Input extends Component {
                     style={{ ...inputStyle, ...this.props.style }}
                     underlineColorAndroid="transparent"
                     placeholder={this.props.placeholder}
-                    placeholderTextColor="grey"
+                    placeholderTextColor="#CCC"
                     numberOfLines={10}
                     value={this.props.value}
                     multiline={multiline}
@@ -104,6 +104,7 @@ export class CreditCard extends React.Component {
             numberError,
             expError,
             cvcError,
+            token: {},
             error
         });
     }
@@ -296,13 +297,15 @@ const styles = StyleSheet.create({
         "flex": 1,
         "height": 35,
         "backgroundColor": "white",
+        "padding": 0,
     },
     textArea: {
         borderColor: properties.borderColor,
         padding: 5,
         height: 75,
         flex: 1,
-        justifyContent: "flex-start"
+        justifyContent: "flex-start",
+        textAlignVertical: "top",
     }
 });
 

@@ -28,4 +28,6 @@ export { default as Carousel } from './carousel';
 
 export { default as Tabs } from './Tabs';
 
+export { default as VideoRecorder } from './videorecorder';
+
 export * from './Functions';

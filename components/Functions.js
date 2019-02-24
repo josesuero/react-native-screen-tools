@@ -5,7 +5,10 @@ import Moment from 'moment';
 import properties from './properties';
 
 export const CommaFormatted = (amount) => {
-    return Number(parseFloat(amount).toFixed(properties.decimals)).toLocaleString(properties.locale, {
+    // console.log('comma', parseFloat(amount).toFixed(properties.decimals).toLocaleString(properties.locale, {
+    //     minimumFractionDigits: 2
+    // }))
+    return (parseFloat(amount).toFixed(properties.decimals)).toLocaleString(properties.locale, {
         minimumFractionDigits: 2
     })
 }
@@ -55,6 +58,12 @@ export const validate = (required, $this, base) => {
             fields[name] = false;
         }
     });
+
+    Object.keys($this.state.errors).filter(item => required.findIndex(it => it === item) === -1)
+        .forEach(field => {
+            fields[field] = false;
+        });
+
     $this.setState({ errors: Object.assign($this.state.errors, fields) });
     return result;
 }
