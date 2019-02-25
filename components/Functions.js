@@ -8,9 +8,15 @@ export const CommaFormatted = (amount) => {
     // console.log('comma', parseFloat(amount).toFixed(properties.decimals).toLocaleString(properties.locale, {
     //     minimumFractionDigits: 2
     // }))
-    return (parseFloat(amount).toFixed(properties.decimals)).toLocaleString(properties.locale, {
-        minimumFractionDigits: 2
-    })
+    // return Number(parseFloat(amount).toFixed(properties.decimals)).toLocaleString(properties.locale, {
+    //     minimumFractionDigits: 2
+    // })
+    amount = parseFloat(amount).toFixed(properties.decimals).toString()
+    var pattern = /(-?\d+)(\d{3})/;
+    while (pattern.test(amount))
+        amount = amount.replace(pattern, "$1,$2");
+    return amount;
+
 }
 
 export const format = (value, type) => {
