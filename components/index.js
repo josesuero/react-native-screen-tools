@@ -11,7 +11,7 @@ export { Row as Row } from './Table';
 export { Column as Column } from './Table';
 
 export { default as Input } from './Input';
-export { CreditCard } from './Input';
+export { default as CreditCard } from './CreditCard';
 export { default as CGText } from './CGText';
 export { default as Picker } from './Picker';
 export { default as CheckBox } from './CheckBox';
@@ -28,6 +28,6 @@ export { default as Carousel } from './carousel';
 
 export { default as Tabs } from './Tabs';
 
-export { default as VideoRecorder } from './videorecorder';
+// export { default as VideoRecorder } from './videorecorder';
 
 export * from './Functions';
