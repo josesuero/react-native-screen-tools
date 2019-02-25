@@ -1,8 +1,8 @@
 {
     "borderColor": "rgb(165,165,165)",
-    "currency": "€",
-    "delimiter": ".",
-    "decimalSeparator": ",",
+    "currency": "$",
+    "delimiter": ",",
+    "decimalSeparator": ".",
     "locale": "es",
     "decimals": 2,
     "mainColor": "#990099",
