@@ -1,75 +1,73 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, } from 'react-native';
+import { StyleSheet, View, Platform } from 'react-native';
+
+import PropTypes from 'prop-types';
 
 import { Row, Column } from './Table';
 import Button, { Link } from './Buttons';
 import properties from './properties';
 
 export default class Tabs extends Component {
-    state = {
-        current: 0,
+    getStyle(type, current, i) {
+        switch (type) {
+            case "column":
+                if (this.props.buttons) {
+                    return { padding: 3 }
+                } else {
+                    return current === i ? styles.columnSelected : styles.column
+                }
+            case "tab":
+                break;
+            case "button":
+                break;
+            case "buttonText":
+                break;
+
+        }
     }
 
-    renderButtons(sections) {
-        return (<View>
-            <Row style={{
-                marginBottom: 20
-            }}>
-                {sections.map((section, i) => (<Column key={section}
-                    style={{ padding: 3 }
-                        // this.state.current === i ? styles.columnSelected : styles.column
-                    }
-                >
-                    <Button
-                        style={this.state.current === i ? styles.buttonSelected : styles.button}
-                        textStyle={this.state.current === i ? styles.buttonTextSelected : styles.buttonText}
-                        onPress={() => {
-                            this.setState({ current: i });
-                            if (this.props.onChange) {
-                                this.props.onChange(this.props.sections[i]);
-                            }
-                        }}
-                    >{section}</Button>
-                </Column>)
-                )}
-            </Row>
-            {this.props.renderSection(this.state.current)}
-        </View>);
-
-    }
-
-    renderTabs(sections) {
-        return (<View>
-            <Row style={{
-                marginBottom: 20
-            }}>
-                {sections.map((section, i) => (<Column key={section}
-                    style={this.state.current === i ? styles.columnSelected : styles.column}
-                >
-                    <Link
-                        style={this.state.current === i ? styles.menuSelected : styles.menu}
-                        onPress={() => {
-                            this.setState({ current: i });
-                            if (this.props.onChange) {
-                                this.props.onChange(this.props.sections[i]);
-                            }
-                        }}
-                    >{section}</Link>
-                </Column>)
-                )}
-            </Row>
-            {this.props.renderSection(this.state.current)}
-        </View>);
+    onChange(i) {
+        if (this.props.onChange) {
+            this.props.onChange(i, this.props.sections[i]);
+        }
     }
 
     render() {
-        const sections = this.props.sections;
-        if (this.props.buttons) {
-            return this.renderButtons(sections);
-        }
-
-        return this.renderTabs(sections);
+        const { sections, value } = this.props;
+        current = this.props.value;
+        return (<View>
+            <Row style={{
+                marginBottom: 10
+            }}>
+                {sections.map((section, i) => (<Column key={section}
+                    style={this.getStyle("column", current, i)}
+                >
+                    {this.props.buttons ?
+                        <Button
+                            style={current === i ? styles.buttonSelected : styles.button}
+                            textStyle={current === i ? styles.buttonTextSelected : styles.buttonText}
+                            onPress={() => this.onChange(i)}
+                        >{section}</Button>
+                        :
+                        <Link
+                            style={current === i ? styles.menuSelected : styles.menu}
+                            onPress={() => this.onChange(i)}
+                        >{section}</Link>
+                    }
+                </Column>)
+                )}
+            </Row>
+            {this.props.renderSection ? this.props.renderSection(current) : null}
+        </View>);
     }
+}
+
+Tabs.propTypes = {
+    renderSection: PropTypes.func,
+    sections: PropTypes.array.isRequired,
+    onChange: PropTypes.func,
+    value: PropTypes.number.isRequired,
+    initial: PropTypes.number,
 }
 
 const styles = StyleSheet.create({
