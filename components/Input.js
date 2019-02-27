@@ -75,7 +75,7 @@ Input.propTypes = {
     placeholder: PropTypes.string,
     secureTextEntry: PropTypes.bool,
     type: PropTypes.string,
-    autoCapitalize: PropTypes.bool,
+    autoCapitalize: PropTypes.string,
     inputRef: PropTypes.func,
     editable: PropTypes.bool,
     blurOnSubmit: PropTypes.bool,
