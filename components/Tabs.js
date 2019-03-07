@@ -44,8 +44,8 @@ export default class Tabs extends Component {
                 >
                     {this.props.buttons ?
                         <Button
-                            style={current === i ? styles.buttonSelected : styles.button}
-                            textStyle={current === i ? styles.buttonTextSelected : styles.buttonText}
+                            style={current === i ? { ...styles.buttonSelected, ...this.props.buttonStyle, ...this.props.selectedButtonStyle } : { ...styles.button, ...this.props.buttonStyle }}
+                            textStyle={current === i ? { ...styles.buttonTextSelected, ...this.props.textStyle, ...this.props.selectedTextStyle } : { ...styles.buttonText, ...this.props.textStyle }}
                             onPress={() => this.onChange(i)}
                         >{section}</Button>
                         :
@@ -58,7 +58,7 @@ export default class Tabs extends Component {
                 )}
             </Row>
             {this.props.renderSection ? this.props.renderSection(current) : null}
-        </View>);
+        </View >);
     }
 }
 
