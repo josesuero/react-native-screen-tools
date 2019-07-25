@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "base-64": "^0.1.0",
+    "lodash": "^4.17.15",
+    "mem": "^5.1.1",
     "moment": "^2.22.2",
     "query-string": "^6.2.0",
     "react": "^16.6.0",
